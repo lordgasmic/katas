@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class KataTest {
+public class KataTest {
+
     @Test
-    void testSomeKataMethod() {
+    public void testSomeKataMethod() {
         Kata subjectUnderTest = new Kata();
         assertEquals("hello, world!", subjectUnderTest.someKataMethod());
     }

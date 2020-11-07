@@ -26,8 +26,9 @@ public class KataServiceTest {
     public void testAddMessagesToPersonalTimeline() {
         assertEquals(0, service.getMessages("Alice").size());
 
-        service.addMessageToTimeline("Alice", "i like stuff");
+        service.addMessageToTimeline("Alice", "I love the weather today");
 
         assertEquals(1, service.getMessages("Alice").size());
+        assertEquals("I love the weather today", service.getMessages("Alice").get(0).getMessage());
     }
 }

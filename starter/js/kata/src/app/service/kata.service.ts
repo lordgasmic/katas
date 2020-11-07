@@ -7,3 +7,4 @@ export class KataService {
 
   constructor() { }
 }
+

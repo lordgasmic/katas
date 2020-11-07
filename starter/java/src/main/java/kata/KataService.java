@@ -14,8 +14,7 @@ public class KataService {
     private static Map<String, List<MessageDetail>> TIMELINE = new HashMap<>();
 
     public List<MessageDetail> getMessages(String username) {
-        List<MessageDetail> messageDetails = TIMELINE.getOrDefault(username, new ArrayList<>());
-        return messageDetails;
+        return TIMELINE.getOrDefault(username, new ArrayList<>());
     }
 
     public void addMessageToTimeline(String username, String message) {

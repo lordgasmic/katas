@@ -11,7 +11,7 @@ import java.util.Map;
 @Service
 public class KataService {
 
-    private static Map<String, List<MessageDetail>> TIMELINE = new HashMap<>();
+    private static final Map<String, List<MessageDetail>> TIMELINE = new HashMap<>();
 
     public List<MessageDetail> getMessages(String username) {
         return TIMELINE.getOrDefault(username, new ArrayList<>());

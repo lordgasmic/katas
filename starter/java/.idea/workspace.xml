@@ -67,7 +67,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="" />
+    <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata/Kata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kata/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,9 +105,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KataServiceTest.testAddMessagesToPersonalTimeline">
+    <configuration name="KataServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katas" />
       <extension name="coverage">
         <pattern>
@@ -112,15 +117,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="kata" />
-      <option name="MAIN_CLASS_NAME" value="kata.KataTest" />
+      <option name="MAIN_CLASS_NAME" value="kata.KataServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataServiceTest.testAddMessagesToPersonalTimeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kata" />
+      <option name="MAIN_CLASS_NAME" value="kata.KataServiceTest" />
+      <option name="METHOD_NAME" value="testAddMessagesToPersonalTimeline" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="JUnit.KataServiceTest.testAddMessagesToPersonalTimeline" />
+        <item itemvalue="JUnit.KataServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,23 +167,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1802" height="241" key="GridCell.Tab.0.bottom" timestamp="1604433766812">
+    <state width="1802" height="241" key="GridCell.Tab.0.bottom" timestamp="1604783571824">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.bottom/72.27.1848.948@72.27.1848.948" timestamp="1604433766812" />
-    <state width="1802" height="241" key="GridCell.Tab.0.center" timestamp="1604433766812">
+    <state width="1802" height="241" key="GridCell.Tab.0.bottom/72.27.1848.948@72.27.1848.948" timestamp="1604783571824" />
+    <state width="1802" height="241" key="GridCell.Tab.0.center" timestamp="1604783571824">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.center/72.27.1848.948@72.27.1848.948" timestamp="1604433766812" />
-    <state width="1802" height="241" key="GridCell.Tab.0.left" timestamp="1604433766811">
+    <state width="1802" height="241" key="GridCell.Tab.0.center/72.27.1848.948@72.27.1848.948" timestamp="1604783571824" />
+    <state width="1802" height="241" key="GridCell.Tab.0.left" timestamp="1604783571823">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.left/72.27.1848.948@72.27.1848.948" timestamp="1604433766811" />
-    <state width="1802" height="241" key="GridCell.Tab.0.right" timestamp="1604433766812">
+    <state width="1802" height="241" key="GridCell.Tab.0.left/72.27.1848.948@72.27.1848.948" timestamp="1604783571823" />
+    <state width="1802" height="241" key="GridCell.Tab.0.right" timestamp="1604783571824">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.right/72.27.1848.948@72.27.1848.948" timestamp="1604433766812" />
+    <state width="1802" height="241" key="GridCell.Tab.0.right/72.27.1848.948@72.27.1848.948" timestamp="1604783571824" />
+    <state x="729" y="273" width="524" height="463" key="extract.method.dialog" timestamp="1604782930539">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="729" y="273" width="524" height="463" key="extract.method.dialog/72.27.1848.948@72.27.1848.948" timestamp="1604782930539" />
   </component>
 </project>

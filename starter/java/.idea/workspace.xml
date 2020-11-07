@@ -68,10 +68,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kata/controller/KataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/KataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/KataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/MessageDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/MessageDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata/KataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata/KataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata/MessageDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/model/MessageDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,7 @@
       <module name="katas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata.*" />
+          <option name="PATTERN" value="kata.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +131,7 @@
       <module name="katas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata.*" />
+          <option name="PATTERN" value="kata.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +147,7 @@
       <module name="katas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata.*" />
+          <option name="PATTERN" value="kata.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +163,7 @@
       <module name="katas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata.*" />
+          <option name="PATTERN" value="kata.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

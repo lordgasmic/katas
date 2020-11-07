@@ -1,5 +1,6 @@
-package kata;
+package kata.service;
 
+import kata.model.MessageDetail;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

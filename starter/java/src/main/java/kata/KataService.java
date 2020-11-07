@@ -3,6 +3,7 @@ package kata;
 import org.aspectj.bridge.Message;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,7 +21,7 @@ public class KataService {
     public void addMessageToTimeline(String username, String message) {
         List<MessageDetail> messageDetails = TIMELINE.getOrDefault(username, new ArrayList<>());
 
-        messageDetails.add(MessageDetail.builder().message(message).build());
+        messageDetails.add(MessageDetail.builder().message(message).time(LocalDateTime.now()).build());
 
         TIMELINE.put(username, messageDetails);
     }

@@ -43,6 +43,6 @@ public class KataServiceTest {
         assertEquals("Good game though", service.getMessages("Bob").get(1).getMessage());
 
         // assert that the time when the first message was posted is older than the second message
-        assertTrue(service.getMessages("Bob").get(0).getTime() > service.getMessages("Bob").get(1).getTime());
+        assertTrue(service.getMessages("Bob").get(0).getTime().isBefore(service.getMessages("Bob").get(1).getTime()));
     }
 }

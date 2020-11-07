@@ -1,7 +1,5 @@
 package kata;
 
-import org.junit.After;
-import org.junit.Before;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -9,7 +7,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.validation.constraints.AssertTrue;
 import java.util.List;
 
 public class KataServiceTest {

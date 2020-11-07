@@ -11,4 +11,5 @@ public class MessageDetail {
 
     private String message;
     private LocalDateTime time;
+    private String user;
 }

@@ -8,10 +8,15 @@ import { WallComponent } from './wall/wall.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { MessageComponent } from './message/message.component';
 import { HeaderComponent } from './header/header.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatInputModule} from '@angular/material/input';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, WallComponent, TimelineComponent, MessageComponent, HeaderComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    HttpClientModule,BrowserModule, AppRoutingModule,MatInputModule,
+    MatSnackBarModule],
   providers: [],
   bootstrap: [AppComponent],
 })

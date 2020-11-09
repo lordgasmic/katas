@@ -1,1 +1,13 @@
-<p>timeline works!</p>
+<div>
+  <p>Timeline</p>
+  <div>
+    <label>Username</label>
+    <input type ="text">
+    <input type="submit" value="Submit">
+  </div>
+  <div [ngClass]="{'hide-container': waiting}">
+    <p *ngFor="let msg of messages">
+      {{msg.user}} - {{msg.message}} ({{msg.time}} ago)
+    </p>
+  </div>
+</div>

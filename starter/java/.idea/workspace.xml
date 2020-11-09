@@ -68,7 +68,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/service/kata.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/service/kata.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/message/message.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/message/message.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/message/message.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/message/message.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/timeline/timeline.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +112,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/kata/configuration" />
     <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/kata/configuration" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.KataServiceTest.testGetAggregatedList">
     <configuration name="KataServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">

@@ -68,10 +68,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/kata/src/app/service/kata.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/src/app/service/kata.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -29,10 +29,10 @@ public class KataServiceTest {
     public void testAddMessagesToTimeline() {
         assertEquals(0, service.getMessages("Alice").size());
 
-        service.addMessageToTimeline("Alice", "I love the weather today");
+        service.addMessageToTimeline("Alice", "I love the weather today.");
 
         assertEquals(1, service.getMessages("Alice").size());
-        assertEquals("I love the weather today", service.getMessages("Alice").get(0).getMessage());
+        assertEquals("I love the weather today.", service.getMessages("Alice").get(0).getMessage());
     }
 
     @Test
@@ -50,7 +50,7 @@ public class KataServiceTest {
 
     @Test
     public void testGetAggregatedList() {
-        service.addMessageToTimeline("Alice", "I love the weather today.");
+        service.addMessageToTimeline("Alice", "derpl.");
         service.addMessageToTimeline("Bob", "Darn! We lost!");
         service.addMessageToTimeline("Bob", "Good game though.");
         service.addMessageToTimeline("Charlie", "I'm in New York today! Anyone wants to have a coffee?");
@@ -60,7 +60,7 @@ public class KataServiceTest {
 
         List<MessageDetail> messageDetails = service.viewWall("Charlie");
 
-        assertEquals("I love the weather today.", messageDetails.get(0).getMessage());
+        assertEquals("derpl.", messageDetails.get(0).getMessage());
         assertEquals("Darn! We lost!", messageDetails.get(1).getMessage());
         assertEquals("Good game though.", messageDetails.get(2).getMessage());
         assertEquals("I'm in New York today! Anyone wants to have a coffee?", messageDetails.get(3).getMessage());

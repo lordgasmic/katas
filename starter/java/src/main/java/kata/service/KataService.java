@@ -12,8 +12,13 @@ import static java.util.stream.Collectors.toList;
 @Service
 public class KataService {
 
-    private static final Map<String, List<MessageDetail>> TIMELINE = new HashMap<>();
-    private static final Map<String, List<String>> FOLLOWERS = new HashMap<>();
+    private final Map<String, List<MessageDetail>> TIMELINE;
+    private final Map<String, List<String>> FOLLOWERS;
+
+    public KataService() {
+        TIMELINE = new HashMap<>();
+        FOLLOWERS = new HashMap<>();
+    }
 
     public List<MessageDetail> getMessages(String username) {
         return TIMELINE.getOrDefault(username, new ArrayList<>());

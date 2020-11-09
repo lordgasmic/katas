@@ -68,13 +68,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a77f51a-30f6-4b95-b227-60e0d041d8af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kata/controller/KataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/KataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/KataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata/MessageDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/model/MessageDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata/service/KataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kata/KataServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/kata/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../js/kata/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,9 +175,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.KataServiceTest.testGetAggregatedList" />
+        <item itemvalue="JUnit.KataServiceTest" />
         <item itemvalue="JUnit.KataServiceTest.testAliceViewsBobsTimeline" />
         <item itemvalue="JUnit.KataServiceTest.testAddMessagesToPersonalTimeline" />
-        <item itemvalue="JUnit.KataServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,22 +205,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1802" height="241" key="GridCell.Tab.0.bottom" timestamp="1604786162172">
+    <state width="1802" height="241" key="GridCell.Tab.0.bottom" timestamp="1604933922309">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.bottom/72.27.1848.948@72.27.1848.948" timestamp="1604786162172" />
-    <state width="1802" height="241" key="GridCell.Tab.0.center" timestamp="1604786162171">
+    <state width="1802" height="241" key="GridCell.Tab.0.bottom/72.27.1848.948@72.27.1848.948" timestamp="1604933922309" />
+    <state width="1802" height="241" key="GridCell.Tab.0.center" timestamp="1604933922309">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.center/72.27.1848.948@72.27.1848.948" timestamp="1604786162171" />
-    <state width="1802" height="241" key="GridCell.Tab.0.left" timestamp="1604786162171">
+    <state width="1802" height="241" key="GridCell.Tab.0.center/72.27.1848.948@72.27.1848.948" timestamp="1604933922309" />
+    <state width="1802" height="241" key="GridCell.Tab.0.left" timestamp="1604933922309">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.left/72.27.1848.948@72.27.1848.948" timestamp="1604786162171" />
-    <state width="1802" height="241" key="GridCell.Tab.0.right" timestamp="1604786162171">
+    <state width="1802" height="241" key="GridCell.Tab.0.left/72.27.1848.948@72.27.1848.948" timestamp="1604933922309" />
+    <state width="1802" height="241" key="GridCell.Tab.0.right" timestamp="1604933922309">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state width="1802" height="241" key="GridCell.Tab.0.right/72.27.1848.948@72.27.1848.948" timestamp="1604786162171" />
+    <state width="1802" height="241" key="GridCell.Tab.0.right/72.27.1848.948@72.27.1848.948" timestamp="1604933922309" />
     <state width="1802" height="298" key="GridCell.Tab.1.bottom" timestamp="1604783919481">
       <screen x="72" y="27" width="1848" height="948" />
     </state>

@@ -1,5 +1,5 @@
 export class MessageResponse {
-  message:string;
+  message: string;
   time: Date;
-  user:string;
+  user: string;
 }
